@@ -1,3 +1,123 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+.container {
+    margin-bottom: 100px;
+}
+.navbar-nav a{
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+.navbar-nav a:hover{
+    background-color: cyan; 
+}
+.navbar-nav .active{
+    background-color: cyan;
+    border-radius: 4px;
+}
+.color-bg{
+    background-image: linear-gradient(45deg, lightgrey,dimgrey);
+}
+.content{
+    margin-left: 30px;
+}
+.buy-btn{
+    background-image: linear-gradient(45deg,lightblue,cyan);
+    border: none;
+    padding: 8px 20px;
+    font-size: 20px;
+    border-radius:4px;
+}
+.card-footer img{
+    width: 60px;
+}
+.Mimg{
+    font-size: 16px;
+    background-image: linear-gradient(45deg, lightblue,cyan);
+    padding:8px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card-body p {
+    margin-top: 10px;
+}
+.card-body h5{
+    font-weight: 600;
+}
+.price{
+    color: red;
+}
+.card{
+    border: none;
+    box-shadow: 10px 10px 25px lightgray;
+    margin-right: 20px;
+     
+}
+.card-1{
+    border-radius: 10px !important;
+}
+.card-2{
+    border-radius: 10px !important;
+}
+.card-3{
+    border-radius: 10px !important;
+}
+.pale img {
+    width: 100%;
+}
+.bag1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.bag2{
+    margin-top: 30px;
+   
+}
+.categories{
+    
+    border-radius: 10px;
+}
+.categoriestitle{
+    margin-bottom: 40px;
+}
+.null{
+    height: 8px;
+    background-image: linear-gradient(45deg,cyan,blue);
+    width: 160px;
+    border-radius: 5px;
+}
+.perfume{
+    margin-top: 20px;
+}
+span.title {
+    position: absolute;
+    top: 10px;
+    left: 125px;
+    left: 115px;
+    color: black;
+    font-size: 25px;
+}
+span.title2 {
+    position: absolute;
+    top: 170px;
+    left: 115px;
+    color: black;
+    font-size: 25px;
+}
+ 
+
+
+
+
+
+@media screen and (max-width:768px){
+    span.title{
+        left: 215px;
+}
+span.title2 {
+    left:215px;
+}
+
+    } 
+
